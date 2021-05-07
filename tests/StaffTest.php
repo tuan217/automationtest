@@ -11,7 +11,7 @@ class StaffTest extends TestCase
         $staff = new Staff;
 
         $staff->first_name = "Nguyen";
-        $staff->last_name = "Bao";
+        $staff->last_name = "Test";
 
         $this->assertEquals('Nguyen Bao', $staff->getFullName());
     }
